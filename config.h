@@ -113,58 +113,58 @@ float alpha = 1;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-/* /\* light theme: *\/ */
-/* /\* 8 normal colors *\/ */
-/* /\* "#e6cc7c", /\\* hard contrast: #f9f5d7 / soft contrast: #f2e5bc *\\/ *\/ */
-/* "#e6cc7c", /\* hard contrast: #f9f5d7 / soft contrast: #f2e5bc *\/ */
-/* "#cc241d", /\* red     *\/ */
-/* "#98971a", /\* green   *\/ */
-/* /\* "#d79921", /\\* yellow  *\\/ *\/ */
-/* "#000000", /\* yellow  *\/ */
-/* "#458588", /\* blue    *\/ */
-/* "#b16286", /\* magenta *\/ */
-/* "#689d6a", /\* cyan    *\/ */
-/* "#e5e9f0", /\* white   *\/ */
-/* /\* 8 bright colors *\/ */
-/* "#928374", /\* black   *\/ */
-/* "#9d0006", /\* red     *\/ */
-/* "#79740e", /\* green   *\/ */
-/* "#b57614", /\* yellow  *\/ */
-/* "#076678", /\* blue    *\/ */
-/* "#8f3f71", /\* magenta *\/ */
-/* /\* "#427b58", /\\* cyan    *\\/ *\/ */
-/* "#00FFFF", /\* cyan    *\/ */
-/* "#3c3836", /\* white   *\/ */
-/*[255] = 0, */
-/*"#555555", /\* 256 -> cursor *\/ */
-/*"#add8e6", /\* 257 -> rev cursor*\/ */
-/*"#ffffff", /\* 258 -> bg *\/ */
-/*"#282828", /\* 259 -> fg *\/ */
+/* light theme: */ 
+/* 8 normal colors */ 
+  "#9e8c54",
+  "#9e8c54",
+ "#cc241d", 
+ "#98971a", 
+ "#d79921", 
+ "#000000", 
+ "#458588", 
+ "#b16286", 
+ "#689d6a", 
+ "#5e6063", 
+/* 8 bright colors */
+ "#928374", 
+ "#9d0006", 
+ "#79740e", 
+ "#b57614", 
+ "#076678", 
+ "#8f3f71", 
+ "#427b58", 
+ "#029999", 
+ "#3c3836", 
+[255] = 0,
+"#555555", 
+"#add8e6", 
+"#ffffff", 
+"#282828", 
 
 /* dark theme */
-	/* "#282828", /\* hard contrast: #1d2021 / soft contrast: #32302f *\/ */
-	"#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
-	[255] = 0,
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	/* "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f  */
+	/* "#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	/* "#cc241d",*/
+	/* "#98971a",*/
+	/* "#d79921",*/
+	/* "#458588",*/
+	/* "#b16286",*/
+	/* "#689d6a",*/
+	/* "#a89984",*/
+	/* "#928374",*/
+	/* "#fb4934",*/
+	/* "#b8bb26",*/
+	/* "#fabd2f",*/
+	/* "#83a598",*/
+	/* "#d3869b",*/
+	/* "#8ec07c",*/
+	/* "#ebdbb2",*/
+	/* [255] = 0,*/
+	/*  more colors can be added after 255 to use with DefaultXX */
+	/* "#add8e6", /* 256 -> cursor */
+	/* "#555555", /* 257 -> rev cursor*/
+	/* "#000000", /* 258 -> bg */
+	/* "#ebdbb2", /* 259 -> fg */
 
 };
 
