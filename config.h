@@ -136,9 +136,9 @@ static const char *colorname[] = {
 	/* "#ebdbb2", */
 
 /* light theme */
-/* this is the exact inverse of the above colors except for one, #33dbe2
+/* this is the exact inverse of the above colors except for one, #33dbe2 */
 	"#e2dfde", 
-	/* "#33dbe2", */ // this was replaced with the color below
+    /* "#33dbe2", // this was replaced with the color below */
     "#1d888c",
 	"#6768e5",
 	"#2866de",
