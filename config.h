@@ -174,6 +174,8 @@ unsigned int defaultcs = 256;
 unsigned int defaultrcs = 257;
 unsigned int background = 258;
 
+
+
 /*
  * Default shape of cursor
  * 2: Block ("█")
