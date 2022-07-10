@@ -5,9 +5,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 /* comment */
-static char *font = "Liberation Mono:pixelsize=17:antialias=true:autohint=true";
-/* static char *font2[] = { "Liberation Mono:pixelsize=18:antialias=true:autohint=true" }; */
-static char *font2[] = { "Liberation Mono:pixelsize=17:antialias=true:autohint=true" };
+static char *font = "Liberation Mono:pixelsize=15:antialias=true:autohint=true";
+static char *font2[] = { "Liberation Mono:pixelsize=15:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -113,58 +112,54 @@ float alpha = 1;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-/* light theme: */ 
-/* 8 normal colors */ 
-  "#9e8c54",
-  "#9e8c54",
- "#cc241d", 
- "#98971a", 
- "#d79921", 
- "#000000", 
- "#458588", 
- "#b16286", 
- "#689d6a", 
- "#5e6063", 
-/* 8 bright colors */
- "#928374", 
- "#9d0006", 
- "#79740e", 
- "#b57614", 
- "#076678", 
- "#8f3f71", 
- "#427b58", 
- "#029999", 
- "#3c3836", 
-[255] = 0,
-"#555555", 
-"#add8e6", 
-"#ffffff", 
-"#282828", 
-
 /* dark theme */
-	/* "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f  */
-	/* "#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	/* "#cc241d",*/
-	/* "#98971a",*/
-	/* "#d79921",*/
-	/* "#458588",*/
-	/* "#b16286",*/
-	/* "#689d6a",*/
-	/* "#a89984",*/
-	/* "#928374",*/
-	/* "#fb4934",*/
-	/* "#b8bb26",*/
-	/* "#fabd2f",*/
-	/* "#83a598",*/
-	/* "#d3869b",*/
-	/* "#8ec07c",*/
-	/* "#ebdbb2",*/
-	/* [255] = 0,*/
-	/*  more colors can be added after 255 to use with DefaultXX */
-	/* "#add8e6", /* 256 -> cursor */
-	/* "#555555", /* 257 -> rev cursor*/
-	/* "#000000", /* 258 -> bg */
-	/* "#ebdbb2", /* 259 -> fg */
+	/* "#1d2021",  */
+	/* "#cc241d", */
+	/* "#98971a", */
+	/* "#d79921", */
+	/* "#458588", */
+	/* "#b16286", */
+	/* "#689d6a", */
+	/* "#a89984", */
+	/* "#928374", */
+	/* "#fb4934", */
+	/* "#b8bb26", */
+	/* "#fabd2f", */
+	/* "#83a598", */
+	/* "#d3869b", */
+	/* "#8ec07c", */
+	/* "#ebdbb2", */
+	/* [255] = 0, */
+	/* "#add8e6", */
+	/* "#555555", */
+	/* "#000000", */
+	/* "#ebdbb2", */
+
+/* light theme */
+/* this is the exact inverse of the above colors except for one, #33dbe2
+	"#e2dfde", 
+	/* "#33dbe2", */ // this was replaced with the color below
+    "#1d888c",
+	"#6768e5",
+	"#2866de",
+	"#ba7a77",
+	"#4e9d79",
+	"#976295",
+	"#57667b",
+	"#6d7c8b",
+	"#04b6cb",
+	"#4744d9",
+	"#0542d0",
+	"#7c5a67",
+	"#2c7964",
+	"#713f83",
+	"#14244d",
+	[255] = 0,
+	"#522719",
+	"#aaaaaa",
+	"#ffffff",
+	"#14244d",
+
 
 };
 
