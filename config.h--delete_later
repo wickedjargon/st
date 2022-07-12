@@ -113,7 +113,6 @@ float alpha = 1;
 static const char *colorname[] = {
 
 /* dark theme */
-
 	/* "#1d2021",  */
 	/* "#cc241d", */
 	/* "#98971a", */
@@ -137,9 +136,10 @@ static const char *colorname[] = {
 	/* "#ebdbb2", */
 
 /* light theme */
-
+/* this is the exact inverse of the above colors except for one, #33dbe2 */
 	"#e2dfde", 
-	"#1d888c",
+    /* "#33dbe2", // this was replaced with the color below */
+    "#1d888c",
 	"#6768e5",
 	"#2866de",
 	"#ba7a77",
@@ -173,6 +173,8 @@ unsigned int defaultbg = 258;
 unsigned int defaultcs = 256;
 unsigned int defaultrcs = 257;
 unsigned int background = 258;
+
+
 
 /*
  * Default shape of cursor
